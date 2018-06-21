@@ -1,15 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".DiscoverFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:id="@+id/discover_fragment"
+    <!-- Floating Action Button -->
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="7dp"
+        android:contentDescription="Add Interest"
+        android:clickable="true"
+        android:src="@drawable/ic_add_white_24dp"/>
+
+    <!-- List -->
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/title_discover" />
+        android:orientation="vertical">
 
+        <!-- Fragment Title -->
+        <!-- TODO: Re-thing the layout of the items -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:text="@string/title_discover"
+            android:textColor="@android:color/black"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <!-- TODO: Material Card Views go here -->
+
+    </LinearLayout>
 </FrameLayout>

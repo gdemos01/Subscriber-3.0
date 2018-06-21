@@ -6,9 +6,26 @@
     tools:context=".SearchFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <!-- List -->
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/title_search" />
+        android:orientation="vertical">
+
+        <!-- Fragment Title -->
+        <!-- TODO: Re-thing the layout of the items -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:text="@string/title_search"
+            android:textColor="@android:color/black"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <!-- TODO: Material Card Views go here -->
+
+    </LinearLayout>
 
 </FrameLayout>
