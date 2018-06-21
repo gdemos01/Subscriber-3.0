@@ -2,17 +2,17 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/navigation_home"
+        android:id="@+id/navigation_discover"
         android:icon="@drawable/ic_bubble_chart_black_24dp"
         android:title="@string/title_discover" />
 
     <item
-        android:id="@+id/navigation_dashboard"
+        android:id="@+id/navigation_this_week"
         android:icon="@drawable/ic_weekend_black_24dp"
         android:title="@string/title_this_week" />
 
     <item
-        android:id="@+id/navigation_notifications"
+        android:id="@+id/navigation_search"
         android:icon="@drawable/ic_search_black_24dp"
         android:title="@string/title_search" />
 

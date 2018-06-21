@@ -6,4 +6,7 @@
     <string name="title_discover">Discover</string>
     <string name="title_this_week">This Week</string>
     <string name="title_search">Search</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
